@@ -1,0 +1,1 @@
+Implement a program that takes as input three variables of integers, and returns the largest of the three. Do this without using the "xpto" max() function!
