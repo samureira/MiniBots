@@ -10,10 +10,10 @@
         "C:\\Users\\samue\\.nuget\\packages\\csvhelper/2.13.5\\lib/net40-client/CsvHelper.dll",
         "C:\\Users\\samue\\.nuget\\packages\\documentformat.openxml/2.5.0\\lib/DocumentFormat.OpenXml.dll",
         "C:\\Users\\samue\\.nuget\\packages\\microsoft.visualstudio.ole.interop/7.10.6071\\lib/Microsoft.VisualStudio.OLE.Interop.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.dll",
         "C:\\Users\\samue\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OOXML.dll",
         "C:\\Users\\samue\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXml4Net.dll",
         "C:\\Users\\samue\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXmlFormats.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.dll",
         "C:\\Users\\samue\\.nuget\\packages\\sharpziplib/1.0.0\\lib/net45/ICSharpCode.SharpZipLib.dll",
         "C:\\Users\\samue\\.nuget\\packages\\uipath.excel.activities/2.7.2\\lib/net461/UiPath.Excel.Activities.Design.dll",
         "C:\\Users\\samue\\.nuget\\packages\\uipath.excel.activities/2.7.2\\lib/net461/UiPath.Excel.Activities.dll",
@@ -69,10 +69,10 @@
       },
       "Assemblies": [
         "C:\\Users\\samue\\.nuget\\packages\\avalonedit/5.0.3\\lib/Net40/ICSharpCode.AvalonEdit.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.dll",
         "C:\\Users\\samue\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll",
         "C:\\Users\\samue\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll",
         "C:\\Users\\samue\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.dll",
         "C:\\Users\\samue\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.DataGrid.dll",
         "C:\\Users\\samue\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.Toolkit.dll",
         "C:\\Users\\samue\\.nuget\\packages\\humanizer.core/2.4.2\\lib/netstandard2.0/Humanizer.dll",
@@ -102,11 +102,21 @@
         "C:\\Users\\samue\\.nuget\\packages\\uipath.vision/1.8.1\\lib/net452/UiPath.Vision.AbbyyFRECommon.dll",
         "C:\\Users\\samue\\.nuget\\packages\\uipath.vision/1.8.1\\lib/net452/UiPath.Vision.AzureComputerVision.dll",
         "C:\\Users\\samue\\.nuget\\packages\\uipath.vision/1.8.1\\lib/net452/UiPath.Vision.Core.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\uipath.vision/1.8.1\\lib/net452/UiPath.Vision.dll",
         "C:\\Users\\samue\\.nuget\\packages\\uipath.vision/1.8.1\\lib/net452/UiPath.Vision.GoogleCloud.dll",
         "C:\\Users\\samue\\.nuget\\packages\\uipath.vision/1.8.1\\lib/net452/UiPath.Vision.Microsoft.dll",
         "C:\\Users\\samue\\.nuget\\packages\\uipath.vision/1.8.1\\lib/net452/UiPath.Vision.MicrosoftCloud.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\uipath.vision/1.8.1\\lib/net452/UiPath.Vision.Tesseract.dll"
+        "C:\\Users\\samue\\.nuget\\packages\\uipath.vision/1.8.1\\lib/net452/UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\uipath.vision/1.8.1\\lib/net452/UiPath.Vision.dll"
+      ]
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.Activities.Extensions",
+        "Version": "2.0.6.9"
+      },
+      "Assemblies": [
+        "C:\\Users\\samue\\.nuget\\packages\\microsoft.activities.extensions/2.0.6.9\\lib/Net45/Microsoft.Activities.Extensions.Design.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\microsoft.activities.extensions/2.0.6.9\\lib/Net45/Microsoft.Activities.Extensions.dll"
       ]
     }
   ],
@@ -155,6 +165,11 @@
     "interop.domino.dll": {
       "Id": "interop.domino.dll",
       "Version": "1.0.0",
+      "Dependencies": []
+    },
+    "Microsoft.Activities.Extensions": {
+      "Id": "Microsoft.Activities.Extensions",
+      "Version": "2.0.6.9",
       "Dependencies": []
     },
     "Microsoft.AspNet.SignalR.Client": {
