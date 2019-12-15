@@ -2,6 +2,65 @@
   "Packages": [
     {
       "Package": {
+        "Id": "UiPath.Excel.Activities",
+        "Version": "2.4.6884.25683"
+      },
+      "Assemblies": [
+        "C:\\Users\\samue\\.nuget\\packages\\closedxml/0.87.1\\lib/net40/ClosedXML.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\csvhelper/2.13.5\\lib/net40-client/CsvHelper.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\documentformat.openxml/2.5.0\\lib/DocumentFormat.OpenXml.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\microsoft.visualstudio.ole.interop/7.10.6071\\lib/Microsoft.VisualStudio.OLE.Interop.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\npoi/2.2.1\\lib/net40/NPOI.OOXML.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\npoi/2.2.1\\lib/net40/NPOI.OpenXml4Net.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\npoi/2.2.1\\lib/net40/NPOI.OpenXmlFormats.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\npoi/2.2.1\\lib/net40/NPOI.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\sharpziplib/0.86.0\\lib/20/ICSharpCode.SharpZipLib.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\uipath.excel.activities/2.4.6884.25683\\lib/net452/UiPath.Excel.Activities.Design.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\uipath.excel.activities/2.4.6884.25683\\lib/net452/UiPath.Excel.Activities.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\uipath.excel.activities/2.4.6884.25683\\lib/net452/UiPath.Excel.dll"
+      ]
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Mail.Activities",
+        "Version": "1.2.6863.29868"
+      },
+      "Assemblies": [
+        "C:\\Users\\samue\\.nuget\\packages\\bouncycastle/1.8.1\\lib/BouncyCastle.Crypto.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.Auth.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\uipath.mail.activities/1.2.6863.29868\\lib/net40/MailKit.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\uipath.mail.activities/1.2.6863.29868\\lib/net40/MimeKit.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\uipath.mail.activities/1.2.6863.29868\\lib/net40/UiPath.Mail.Activities.Design.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\uipath.mail.activities/1.2.6863.29868\\lib/net40/UiPath.Mail.Activities.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\uipath.mail.activities/1.2.6863.29868\\lib/net40/UiPath.Mail.dll"
+      ]
+    },
+    {
+      "Package": {
+        "Id": "UiPath.System.Activities",
+        "Version": "18.4.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\samue\\.nuget\\packages\\csvhelper/2.13.5\\lib/net40-client/CsvHelper.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\microsoft.rest.clientruntime/2.3.10\\lib/net452/Microsoft.Rest.ClientRuntime.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\newtonsoft.json/10.0.3\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\uipath.system.activities/18.4.1\\lib/net461/ActiproSoftware.Docking.Wpf.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\uipath.system.activities/18.4.1\\lib/net461/ActiproSoftware.Ribbon.Wpf.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\uipath.system.activities/18.4.1\\lib/net461/ActiproSoftware.Shared.Wpf.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\uipath.system.activities/18.4.1\\lib/net461/ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\uipath.system.activities/18.4.1\\lib/net461/ActiproSoftware.SyntaxEditor.Wpf.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\uipath.system.activities/18.4.1\\lib/net461/ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\uipath.system.activities/18.4.1\\lib/net461/ActiproSoftware.Text.LLParser.Wpf.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\uipath.system.activities/18.4.1\\lib/net461/ActiproSoftware.Text.Wpf.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\uipath.system.activities/18.4.1\\lib/net461/ActiproSoftware.Wizard.Wpf.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\uipath.system.activities/18.4.1\\lib/net461/UiPath.OrchestratorClient.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\uipath.system.activities/18.4.1\\lib/net461/UiPath.System.Activities.Design.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\uipath.system.activities/18.4.1\\lib/net461/UiPath.System.Activities.dll"
+      ]
+    },
+    {
+      "Package": {
         "Id": "UiPath.UIAutomation.Activities",
         "Version": "18.4.1"
       },
@@ -34,67 +93,8 @@
         "C:\\Users\\samue\\.nuget\\packages\\uipath.uiautomation.activities/18.4.1\\lib/net461/UiPath.Wizards.dll",
         "C:\\Users\\samue\\.nuget\\packages\\uipath.vision/1.2.0\\lib/net452/UiPath.NeuralNet.dll",
         "C:\\Users\\samue\\.nuget\\packages\\uipath.vision/1.2.0\\lib/net452/UiPath.Vision.Core.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\uipath.vision/1.2.0\\lib/net452/UiPath.Vision.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\uipath.vision/1.2.0\\lib/net452/UiPath.Vision.Package.dll"
-      ]
-    },
-    {
-      "Package": {
-        "Id": "UiPath.System.Activities",
-        "Version": "18.4.1"
-      },
-      "Assemblies": [
-        "C:\\Users\\samue\\.nuget\\packages\\csvhelper/2.13.5\\lib/net40-client/CsvHelper.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\microsoft.rest.clientruntime/2.3.10\\lib/net452/Microsoft.Rest.ClientRuntime.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\newtonsoft.json/10.0.3\\lib/net45/Newtonsoft.Json.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\uipath.system.activities/18.4.1\\lib/net461/ActiproSoftware.Docking.Wpf.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\uipath.system.activities/18.4.1\\lib/net461/ActiproSoftware.Ribbon.Wpf.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\uipath.system.activities/18.4.1\\lib/net461/ActiproSoftware.Shared.Wpf.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\uipath.system.activities/18.4.1\\lib/net461/ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\uipath.system.activities/18.4.1\\lib/net461/ActiproSoftware.SyntaxEditor.Wpf.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\uipath.system.activities/18.4.1\\lib/net461/ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\uipath.system.activities/18.4.1\\lib/net461/ActiproSoftware.Text.LLParser.Wpf.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\uipath.system.activities/18.4.1\\lib/net461/ActiproSoftware.Text.Wpf.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\uipath.system.activities/18.4.1\\lib/net461/ActiproSoftware.Wizard.Wpf.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\uipath.system.activities/18.4.1\\lib/net461/UiPath.OrchestratorClient.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\uipath.system.activities/18.4.1\\lib/net461/UiPath.System.Activities.Design.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\uipath.system.activities/18.4.1\\lib/net461/UiPath.System.Activities.dll"
-      ]
-    },
-    {
-      "Package": {
-        "Id": "UiPath.Excel.Activities",
-        "Version": "2.4.6884.25683"
-      },
-      "Assemblies": [
-        "C:\\Users\\samue\\.nuget\\packages\\closedxml/0.87.1\\lib/net40/ClosedXML.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\csvhelper/2.13.5\\lib/net40-client/CsvHelper.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\documentformat.openxml/2.5.0\\lib/DocumentFormat.OpenXml.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\microsoft.visualstudio.ole.interop/7.10.6071\\lib/Microsoft.VisualStudio.OLE.Interop.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\npoi/2.2.1\\lib/net40/NPOI.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\npoi/2.2.1\\lib/net40/NPOI.OOXML.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\npoi/2.2.1\\lib/net40/NPOI.OpenXml4Net.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\npoi/2.2.1\\lib/net40/NPOI.OpenXmlFormats.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\sharpziplib/0.86.0\\lib/20/ICSharpCode.SharpZipLib.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\uipath.excel.activities/2.4.6884.25683\\lib/net452/UiPath.Excel.Activities.Design.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\uipath.excel.activities/2.4.6884.25683\\lib/net452/UiPath.Excel.Activities.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\uipath.excel.activities/2.4.6884.25683\\lib/net452/UiPath.Excel.dll"
-      ]
-    },
-    {
-      "Package": {
-        "Id": "UiPath.Mail.Activities",
-        "Version": "1.2.6863.29868"
-      },
-      "Assemblies": [
-        "C:\\Users\\samue\\.nuget\\packages\\bouncycastle/1.8.1\\lib/BouncyCastle.Crypto.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.Auth.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\uipath.mail.activities/1.2.6863.29868\\lib/net40/MailKit.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\uipath.mail.activities/1.2.6863.29868\\lib/net40/MimeKit.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\uipath.mail.activities/1.2.6863.29868\\lib/net40/UiPath.Mail.Activities.Design.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\uipath.mail.activities/1.2.6863.29868\\lib/net40/UiPath.Mail.Activities.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\uipath.mail.activities/1.2.6863.29868\\lib/net40/UiPath.Mail.dll"
+        "C:\\Users\\samue\\.nuget\\packages\\uipath.vision/1.2.0\\lib/net452/UiPath.Vision.Package.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\uipath.vision/1.2.0\\lib/net452/UiPath.Vision.dll"
       ]
     }
   ],
@@ -231,12 +231,12 @@
       "Version": "1.2.6863.29868",
       "Dependencies": [
         {
-          "Item1": "BouncyCastle",
-          "Item2": "[1.8.1, )"
-        },
-        {
           "Item1": "Microsoft.Exchange.WebServices",
           "Item2": "[2.2.0, )"
+        },
+        {
+          "Item1": "BouncyCastle",
+          "Item2": "[1.8.1, )"
         }
       ]
     },
@@ -279,12 +279,12 @@
           "Item2": "[2.4.2, )"
         },
         {
-          "Item1": "UiPath",
-          "Item2": "[10.0.6913.22031, )"
-        },
-        {
           "Item1": "UiPath.Vision",
           "Item2": "[1.2.0, )"
+        },
+        {
+          "Item1": "UiPath",
+          "Item2": "[10.0.6913.22031, )"
         }
       ]
     },
