@@ -1721,9 +1721,9 @@
     "restore": {
       "projectUniqueName": "PickWord",
       "projectName": "PickWord",
-      "projectPath": "C:\\RPA\\BotsInDev\\MiniBots\\b30_PickWord\\.local",
+      "projectPath": "C:\\RPA\\BotsInDev\\MiniBots\\d_30_PickWord\\.local",
       "packagesPath": "C:\\Users\\samue\\.nuget\\packages\\",
-      "outputPath": "C:\\RPA\\BotsInDev\\MiniBots\\b30_PickWord\\.local"
+      "outputPath": "C:\\RPA\\BotsInDev\\MiniBots\\d_30_PickWord\\.local"
     },
     "frameworks": {
       "net461": {

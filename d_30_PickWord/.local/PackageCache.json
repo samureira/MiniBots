@@ -10,10 +10,10 @@
         "C:\\Users\\samue\\.nuget\\packages\\csvhelper/2.13.5\\lib/net40-client/CsvHelper.dll",
         "C:\\Users\\samue\\.nuget\\packages\\documentformat.openxml/2.5.0\\lib/DocumentFormat.OpenXml.dll",
         "C:\\Users\\samue\\.nuget\\packages\\microsoft.visualstudio.ole.interop/7.10.6071\\lib/Microsoft.VisualStudio.OLE.Interop.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.dll",
         "C:\\Users\\samue\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OOXML.dll",
         "C:\\Users\\samue\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXml4Net.dll",
         "C:\\Users\\samue\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXmlFormats.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.dll",
         "C:\\Users\\samue\\.nuget\\packages\\sharpziplib/1.0.0\\lib/net45/ICSharpCode.SharpZipLib.dll",
         "C:\\Users\\samue\\.nuget\\packages\\uipath.excel.activities/2.8.3-beta.867639\\lib/net461/UiPath.Excel.Activities.Design.dll",
         "C:\\Users\\samue\\.nuget\\packages\\uipath.excel.activities/2.8.3-beta.867639\\lib/net461/UiPath.Excel.Activities.dll",
@@ -72,10 +72,10 @@
       },
       "Assemblies": [
         "C:\\Users\\samue\\.nuget\\packages\\avalonedit/5.0.3\\lib/Net40/ICSharpCode.AvalonEdit.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.dll",
         "C:\\Users\\samue\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll",
         "C:\\Users\\samue\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll",
         "C:\\Users\\samue\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.dll",
         "C:\\Users\\samue\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.DataGrid.dll",
         "C:\\Users\\samue\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.Toolkit.dll",
         "C:\\Users\\samue\\.nuget\\packages\\humanizer.core/2.4.2\\lib/netstandard2.0/Humanizer.dll",
@@ -106,11 +106,11 @@
         "C:\\Users\\samue\\.nuget\\packages\\uipath.uiautomation.activities/20.4.0-beta.866690\\lib/net461/UiPath.Wizards.dll",
         "C:\\Users\\samue\\.nuget\\packages\\uipath.vision/2.0.3-beta.853545\\lib/net461/UiPath.Vision.AzureComputerVision.dll",
         "C:\\Users\\samue\\.nuget\\packages\\uipath.vision/2.0.3-beta.853545\\lib/net461/UiPath.Vision.Core.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\uipath.vision/2.0.3-beta.853545\\lib/net461/UiPath.Vision.dll",
         "C:\\Users\\samue\\.nuget\\packages\\uipath.vision/2.0.3-beta.853545\\lib/net461/UiPath.Vision.GoogleCloud.dll",
         "C:\\Users\\samue\\.nuget\\packages\\uipath.vision/2.0.3-beta.853545\\lib/net461/UiPath.Vision.Microsoft.dll",
         "C:\\Users\\samue\\.nuget\\packages\\uipath.vision/2.0.3-beta.853545\\lib/net461/UiPath.Vision.MicrosoftCloud.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\uipath.vision/2.0.3-beta.853545\\lib/net461/UiPath.Vision.Tesseract.dll"
+        "C:\\Users\\samue\\.nuget\\packages\\uipath.vision/2.0.3-beta.853545\\lib/net461/UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\uipath.vision/2.0.3-beta.853545\\lib/net461/UiPath.Vision.dll"
       ],
       "Path": "C:\\Users\\samue\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.0-beta.866690"
     }
@@ -453,10 +453,10 @@
         "Version": "2.8.0"
       },
       "Assemblies": [
-        "C:\\Users\\samue\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.AvalonDock.dll",
         "C:\\Users\\samue\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.AvalonDock.Themes.Aero.dll",
         "C:\\Users\\samue\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.AvalonDock.Themes.Metro.dll",
         "C:\\Users\\samue\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.AvalonDock.dll",
         "C:\\Users\\samue\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.DataGrid.dll",
         "C:\\Users\\samue\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.Toolkit.dll"
       ],
@@ -539,10 +539,10 @@
         "Version": "2.4.1"
       },
       "Assemblies": [
-        "C:\\Users\\samue\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.dll",
         "C:\\Users\\samue\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OOXML.dll",
         "C:\\Users\\samue\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OpenXml4Net.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OpenXmlFormats.dll"
+        "C:\\Users\\samue\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OpenXmlFormats.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.dll"
       ],
       "Path": "C:\\Users\\samue\\.nuget\\packages\\npoi\\2.4.1"
     },
