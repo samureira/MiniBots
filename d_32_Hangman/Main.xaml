@@ -86,29 +86,27 @@
           <av:Size x:Key="ShapeSize">200,66</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence sap:VirtualizedContainerService.HintSize="2954,4073" sap2010:WorkflowViewState.IdRef="Sequence_60">
+      <Sequence sap:VirtualizedContainerService.HintSize="762,1933" sap2010:WorkflowViewState.IdRef="Sequence_60">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
             <x:Boolean x:Key="IsPinned">False</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke PickWord workflow" sap:VirtualizedContainerService.HintSize="2912,87" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="PickWord.xaml">
+        <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke PickWord workflow" sap:VirtualizedContainerService.HintSize="720,87" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="PickWord.xaml">
           <ui:InvokeWorkflowFile.Arguments>
-            <OutArgument x:TypeArguments="x:String" x:Key="aOutWord">
-              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="sWord" />
-            </OutArgument>
+            <OutArgument x:TypeArguments="x:String" x:Key="aOutWord">[sWord]</OutArgument>
           </ui:InvokeWorkflowFile.Arguments>
         </ui:InvokeWorkflowFile>
-        <Sequence DisplayName="Guess Letters (31)" sap:VirtualizedContainerService.HintSize="2912,3854" sap2010:WorkflowViewState.IdRef="Sequence_86">
+        <Sequence DisplayName="Guess Letters (31)" sap:VirtualizedContainerService.HintSize="720,1714" sap2010:WorkflowViewState.IdRef="Sequence_86">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               <x:Boolean x:Key="IsPinned">False</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="2870,59" sap2010:WorkflowViewState.IdRef="MessageBox_66" Text="[&quot;Word: &quot; + sWord]" />
-          <Assign sap:VirtualizedContainerService.HintSize="2870,60" sap2010:WorkflowViewState.IdRef="Assign_23">
+          <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="678,59" sap2010:WorkflowViewState.IdRef="MessageBox_66" Text="[&quot;Word: &quot; + sWord]" />
+          <Assign sap:VirtualizedContainerService.HintSize="678,60" sap2010:WorkflowViewState.IdRef="Assign_23">
             <Assign.To>
               <OutArgument x:TypeArguments="x:Int32">[iCounter]</OutArgument>
             </Assign.To>
@@ -116,7 +114,7 @@
               <InArgument x:TypeArguments="x:Int32">0</InArgument>
             </Assign.Value>
           </Assign>
-          <Assign sap:VirtualizedContainerService.HintSize="2870,60" sap2010:WorkflowViewState.IdRef="Assign_24">
+          <Assign sap:VirtualizedContainerService.HintSize="678,60" sap2010:WorkflowViewState.IdRef="Assign_24">
             <Assign.To>
               <OutArgument x:TypeArguments="x:Boolean">[bGameOver]</OutArgument>
             </Assign.To>
@@ -124,7 +122,7 @@
               <InArgument x:TypeArguments="x:Boolean">False</InArgument>
             </Assign.Value>
           </Assign>
-          <Assign sap:VirtualizedContainerService.HintSize="2870,60" sap2010:WorkflowViewState.IdRef="Assign_58">
+          <Assign sap:VirtualizedContainerService.HintSize="678,60" sap2010:WorkflowViewState.IdRef="Assign_58">
             <Assign.To>
               <OutArgument x:TypeArguments="scg:List(x:String)">[lisOfCorrectGuesses]</OutArgument>
             </Assign.To>
@@ -132,9 +130,9 @@
               <InArgument x:TypeArguments="scg:List(x:String)">[New List(Of String)]</InArgument>
             </Assign.Value>
           </Assign>
-          <ui:InterruptibleDoWhile sap2010:Annotation.AnnotationText="breaks the cycle only when bGameOver is equal to True&#xA;" Condition="[bGameOver = False]" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="2870,3363" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_8">
+          <ui:InterruptibleDoWhile sap2010:Annotation.AnnotationText="breaks the cycle only when bGameOver is equal to True&#xA;" Condition="[bGameOver = False]" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="678,1223" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_8">
             <ui:InterruptibleDoWhile.Body>
-              <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="2834,3198" sap2010:WorkflowViewState.IdRef="TryCatch_8">
+              <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="642,1058" sap2010:WorkflowViewState.IdRef="TryCatch_8">
                 <TryCatch.Variables>
                   <Variable x:TypeArguments="x:Boolean" Name="bCongrats" />
                 </TryCatch.Variables>
@@ -145,23 +143,23 @@
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
                 <TryCatch.Try>
-                  <Sequence sap:VirtualizedContainerService.HintSize="2796,2971" sap2010:WorkflowViewState.IdRef="Sequence_82">
+                  <Sequence sap:VirtualizedContainerService.HintSize="604,831" sap2010:WorkflowViewState.IdRef="Sequence_82">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ui:InterruptibleDoWhile Condition="[string.IsNullOrEmpty(sCurrentLetter.ToUpper) = True OR iCounter &lt; 3]" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="2754,2773" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_10">
+                    <ui:InterruptibleDoWhile sap2010:Annotation.AnnotationText="keep asking for letter if iCounter is less than 3" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="562,633" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_10">
                       <ui:InterruptibleDoWhile.Body>
-                        <Sequence sap:VirtualizedContainerService.HintSize="2584,2608" sap2010:WorkflowViewState.IdRef="Sequence_78">
+                        <Sequence sap:VirtualizedContainerService.HintSize="526,437" sap2010:WorkflowViewState.IdRef="Sequence_78">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               <x:Boolean x:Key="IsPinned">False</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ui:InputDialog Options="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="2542,92" sap2010:WorkflowViewState.IdRef="InputDialog_28" IsPassword="False" Label="Guess the letter" Title="Hangman Game">
+                          <ui:InputDialog Options="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="484,92" sap2010:WorkflowViewState.IdRef="InputDialog_28" IsPassword="False" Label="Guess the letter" Title="Hangman Game">
                             <ui:InputDialog.Result>
                               <OutArgument x:TypeArguments="x:String">[sCurrentLetter]</OutArgument>
                             </ui:InputDialog.Result>
@@ -172,7 +170,7 @@
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                           </ui:InputDialog>
-                          <If Condition="[string.IsNullOrEmpty(sCurrentLetter.ToUpper)]" sap:VirtualizedContainerService.HintSize="2542,2384" sap2010:WorkflowViewState.IdRef="If_30">
+                          <If Condition="[string.IsNullOrEmpty(sCurrentLetter.ToUpper) = True]" sap:VirtualizedContainerService.HintSize="484,213" sap2010:WorkflowViewState.IdRef="If_30">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -190,14 +188,15 @@
                               </ui:LogMessage>
                             </If.Then>
                             <If.Else>
-                              <Sequence sap:VirtualizedContainerService.HintSize="2297,2237" sap2010:WorkflowViewState.IdRef="Sequence_101">
+                              <Sequence sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_101">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="2255,59" sap2010:WorkflowViewState.IdRef="MessageBox_44" Text="[&quot;Good input: The string was not null or empty!&quot;]" />
-                                <If Condition="[sCurrentLetter.IsNumeric = True OR sCurrentLetter.Length &gt; 1]" sap:VirtualizedContainerService.HintSize="2255,2046" sap2010:WorkflowViewState.IdRef="If_29">
+                                <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="1303,59" sap2010:WorkflowViewState.IdRef="MessageBox_44" Text="[&quot;Good input: The string was not null or empty!&quot;]" />
+                                <If Condition="[sCurrentLetter.IsNumeric = True OR sCurrentLetter.Length &gt; 1]" sap:VirtualizedContainerService.HintSize="1303,1061" sap2010:WorkflowViewState.IdRef="If_29">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -205,7 +204,7 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                   <If.Then>
-                                    <Sequence sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_72">
+                                    <Sequence DisplayName="Input was numeric or not a letter" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_72">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -234,14 +233,14 @@
                                     </Sequence>
                                   </If.Then>
                                   <If.Else>
-                                    <Sequence sap:VirtualizedContainerService.HintSize="2010,1899" sap2010:WorkflowViewState.IdRef="Sequence_100">
+                                    <Sequence sap:VirtualizedContainerService.HintSize="1058,914" sap2010:WorkflowViewState.IdRef="Sequence_100">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <AddToCollection x:TypeArguments="x:String" Collection="[lisOfCorrectGuesses]" DisplayName="Add To Collection" sap:VirtualizedContainerService.HintSize="1968,22" sap2010:WorkflowViewState.IdRef="AddToCollection`1_5" Item="[sCurrentLetter]" />
-                                      <If Condition="[sWord.Contains(sCurrentLetter.ToUpper) = True]" sap:VirtualizedContainerService.HintSize="1968,1745" sap2010:WorkflowViewState.IdRef="If_28">
+                                      <AddToCollection x:TypeArguments="x:String" Collection="[lisOfCorrectGuesses]" DisplayName="Add To Collection" sap:VirtualizedContainerService.HintSize="1016,22" sap2010:WorkflowViewState.IdRef="AddToCollection`1_5" Item="[sCurrentLetter]" />
+                                      <If Condition="[sWord.Contains(sCurrentLetter.ToUpper) = True]" sap:VirtualizedContainerService.HintSize="1016,760" sap2010:WorkflowViewState.IdRef="If_28">
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -249,16 +248,16 @@
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
                                         <If.Then>
-                                          <Sequence sap:VirtualizedContainerService.HintSize="1547,1598" sap2010:WorkflowViewState.IdRef="Sequence_89">
+                                          <Sequence sap:VirtualizedContainerService.HintSize="771,613" sap2010:WorkflowViewState.IdRef="Sequence_89">
                                             <sap:WorkflowViewStateService.ViewState>
                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
-                                            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="1505,59" sap2010:WorkflowViewState.IdRef="MessageBox_65" Text="[&quot;round number: &quot; + iCounter.ToString]" />
-                                            <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="1505,22" sap2010:WorkflowViewState.IdRef="Delay_6" />
-                                            <If Condition="[iCounter &gt;= 1]" sap:VirtualizedContainerService.HintSize="1505,1345" sap2010:WorkflowViewState.IdRef="If_36">
+                                            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="729,59" sap2010:WorkflowViewState.IdRef="MessageBox_65" Text="[&quot;Actual «Counter» value: &quot; + iCounter.ToString]" />
+                                            <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="729,22" sap2010:WorkflowViewState.IdRef="Delay_6" />
+                                            <If Condition="[iCounter &gt; 0]" sap:VirtualizedContainerService.HintSize="729,360" sap2010:WorkflowViewState.IdRef="If_36">
                                               <sap:WorkflowViewStateService.ViewState>
                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -266,7 +265,7 @@
                                                 </scg:Dictionary>
                                               </sap:WorkflowViewStateService.ViewState>
                                               <If.Then>
-                                                <If Condition="[lisOfCorrectGuesses.Contains(sCurrentLetter.ToUpper) = True]" DisplayName="Check if Letter was Already Guessed" sap:VirtualizedContainerService.HintSize="1260,1198" sap2010:WorkflowViewState.IdRef="If_34">
+                                                <If Condition="[lisOfCorrectGuesses.Contains(sCurrentLetter.ToUpper) = True]" DisplayName="Check if Letter was Already Guessed" sap:VirtualizedContainerService.HintSize="484,213" sap2010:WorkflowViewState.IdRef="If_34">
                                                   <sap:WorkflowViewStateService.ViewState>
                                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -274,10 +273,11 @@
                                                     </scg:Dictionary>
                                                   </sap:WorkflowViewStateService.ViewState>
                                                   <If.Then>
-                                                    <Sequence sap:VirtualizedContainerService.HintSize="376,382" sap2010:WorkflowViewState.IdRef="Sequence_95">
+                                                    <Sequence DisplayName="Letter already guessed" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_95">
                                                       <sap:WorkflowViewStateService.ViewState>
                                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                         </scg:Dictionary>
                                                       </sap:WorkflowViewStateService.ViewState>
                                                       <Assign sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_62">
@@ -293,13 +293,13 @@
                                                     </Sequence>
                                                   </If.Then>
                                                   <If.Else>
-                                                    <Sequence DisplayName="Guess Word" sap:VirtualizedContainerService.HintSize="839,1051" sap2010:WorkflowViewState.IdRef="Sequence_75">
+                                                    <Sequence DisplayName="Guess Word" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_75">
                                                       <Sequence.Variables>
                                                         <Variable x:TypeArguments="x:String" Name="sWordGuessed" />
                                                       </Sequence.Variables>
                                                       <sap:WorkflowViewStateService.ViewState>
                                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                                                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                         </scg:Dictionary>
                                                       </sap:WorkflowViewStateService.ViewState>
@@ -434,10 +434,11 @@
                                           </Sequence>
                                         </If.Then>
                                         <If.Else>
-                                          <Sequence sap:VirtualizedContainerService.HintSize="376,581" sap2010:WorkflowViewState.IdRef="Sequence_76">
+                                          <Sequence DisplayName="Wrong letter guessed" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_76">
                                             <sap:WorkflowViewStateService.ViewState>
                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
                                             <Assign sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_47">
@@ -470,35 +471,40 @@
                           </If>
                         </Sequence>
                       </ui:InterruptibleDoWhile.Body>
+                      <ui:InterruptibleDoWhile.Condition>
+                        <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="iCounter &lt; 3" />
+                      </ui:InterruptibleDoWhile.Condition>
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:InterruptibleDoWhile>
-                    <Sequence DisplayName="Check Counter" sap:VirtualizedContainerService.HintSize="2754,66" sap2010:WorkflowViewState.IdRef="Sequence_81">
+                    <Sequence DisplayName="Check Counter" sap:VirtualizedContainerService.HintSize="562,66" sap2010:WorkflowViewState.IdRef="Sequence_81">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_41" Level="Info" Message="[&quot;iCounter: &quot; + iCounter.ToString]" />
-                      <If Condition="[iCounter &gt;= 3]" sap:VirtualizedContainerService.HintSize="334,51" sap2010:WorkflowViewState.IdRef="If_31">
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="797,91" sap2010:WorkflowViewState.IdRef="LogMessage_41" Level="Info" Message="[&quot;iCounter: &quot; + iCounter.ToString]" />
+                      <If Condition="[iCounter &gt;= 3]" sap:VirtualizedContainerService.HintSize="797,529" sap2010:WorkflowViewState.IdRef="If_31">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             <x:Boolean x:Key="IsPinned">False</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
                         <If.Then>
-                          <Sequence sap:VirtualizedContainerService.HintSize="376,251" sap2010:WorkflowViewState.IdRef="Sequence_79">
+                          <Sequence sap:VirtualizedContainerService.HintSize="376,382" sap2010:WorkflowViewState.IdRef="Sequence_79">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
+                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_53" Level="Info" Message="[&quot;Game Over: No More Attempts!&quot;]" />
                             <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="MessageBox_53" Text="[&quot;Game Over: No More Attempts!&quot;]" />
                             <Assign sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_49">
                               <Assign.To>
@@ -511,12 +517,13 @@
                           </Sequence>
                         </If.Then>
                         <If.Else>
-                          <Sequence sap:VirtualizedContainerService.HintSize="376,251" sap2010:WorkflowViewState.IdRef="Sequence_80">
+                          <Sequence sap:VirtualizedContainerService.HintSize="376,382" sap2010:WorkflowViewState.IdRef="Sequence_80">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
+                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_54" Level="Info" Message="[&quot;You have &quot; + CInt(3-iCounter).ToString + &quot; atempts left!&quot;]" />
                             <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="MessageBox_54" Text="[&quot;You have &quot; + CInt(3-iCounter).ToString + &quot; atempts left!&quot;]" />
                             <Assign sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_50">
                               <Assign.To>
@@ -533,7 +540,7 @@
                   </Sequence>
                 </TryCatch.Try>
                 <TryCatch.Catches>
-                  <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="2800,21" sap2010:WorkflowViewState.IdRef="Catch`1_7">
+                  <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="608,21" sap2010:WorkflowViewState.IdRef="Catch`1_7">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">False</x:Boolean>
