@@ -10,10 +10,10 @@
         "C:\\Users\\samue\\.nuget\\packages\\csvhelper/2.13.5\\lib/net40-client/CsvHelper.dll",
         "C:\\Users\\samue\\.nuget\\packages\\documentformat.openxml/2.5.0\\lib/DocumentFormat.OpenXml.dll",
         "C:\\Users\\samue\\.nuget\\packages\\microsoft.visualstudio.ole.interop/7.10.6071\\lib/Microsoft.VisualStudio.OLE.Interop.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.dll",
         "C:\\Users\\samue\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OOXML.dll",
         "C:\\Users\\samue\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXml4Net.dll",
         "C:\\Users\\samue\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXmlFormats.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.dll",
         "C:\\Users\\samue\\.nuget\\packages\\sharpziplib/1.0.0\\lib/net45/ICSharpCode.SharpZipLib.dll",
         "C:\\Users\\samue\\.nuget\\packages\\uipath.excel.activities/2.8.5\\lib/net461/UiPath.Excel.Activities.Design.dll",
         "C:\\Users\\samue\\.nuget\\packages\\uipath.excel.activities/2.8.5\\lib/net461/UiPath.Excel.Activities.dll",
@@ -72,10 +72,10 @@
       },
       "Assemblies": [
         "C:\\Users\\samue\\.nuget\\packages\\avalonedit/5.0.3\\lib/Net40/ICSharpCode.AvalonEdit.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.dll",
         "C:\\Users\\samue\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll",
         "C:\\Users\\samue\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll",
         "C:\\Users\\samue\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.dll",
         "C:\\Users\\samue\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.DataGrid.dll",
         "C:\\Users\\samue\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.Toolkit.dll",
         "C:\\Users\\samue\\.nuget\\packages\\humanizer.core/2.4.2\\lib/netstandard2.0/Humanizer.dll",
@@ -106,13 +106,28 @@
         "C:\\Users\\samue\\.nuget\\packages\\uipath.uiautomation.activities/20.4.1\\lib/net461/UiPath.Wizards.dll",
         "C:\\Users\\samue\\.nuget\\packages\\uipath.vision/2.0.3\\lib/net461/UiPath.Vision.AzureComputerVision.dll",
         "C:\\Users\\samue\\.nuget\\packages\\uipath.vision/2.0.3\\lib/net461/UiPath.Vision.Core.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\uipath.vision/2.0.3\\lib/net461/UiPath.Vision.dll",
         "C:\\Users\\samue\\.nuget\\packages\\uipath.vision/2.0.3\\lib/net461/UiPath.Vision.GoogleCloud.dll",
         "C:\\Users\\samue\\.nuget\\packages\\uipath.vision/2.0.3\\lib/net461/UiPath.Vision.Microsoft.dll",
         "C:\\Users\\samue\\.nuget\\packages\\uipath.vision/2.0.3\\lib/net461/UiPath.Vision.MicrosoftCloud.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\uipath.vision/2.0.3\\lib/net461/UiPath.Vision.Tesseract.dll"
+        "C:\\Users\\samue\\.nuget\\packages\\uipath.vision/2.0.3\\lib/net461/UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\uipath.vision/2.0.3\\lib/net461/UiPath.Vision.dll"
       ],
       "Path": "C:\\Users\\samue\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.1"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.WebAPI.Activities",
+        "Version": "1.4.5"
+      },
+      "Assemblies": [
+        "C:\\Users\\samue\\.nuget\\packages\\avalonedit/5.0.3\\lib/Net40/ICSharpCode.AvalonEdit.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\restsharp/106.3.1\\lib/net452/RestSharp.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\uipath.webapi.activities/1.4.5\\lib/net452/UiPath.Web.Activities.Design.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\uipath.webapi.activities/1.4.5\\lib/net452/UiPath.Web.Activities.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\uipath.webapi.activities/1.4.5\\lib/net452/UiPath.Web.dll"
+      ],
+      "Path": "C:\\Users\\samue\\.nuget\\packages\\uipath.webapi.activities\\1.4.5"
     }
   ],
   "Conflicts": [],
@@ -206,6 +221,11 @@
           "Item2": "[1.0.0, )"
         }
       ]
+    },
+    "RestSharp": {
+      "Id": "RestSharp",
+      "Version": "106.3.1",
+      "Dependencies": []
     },
     "SharpZipLib": {
       "Id": "SharpZipLib",
@@ -402,6 +422,24 @@
           "Item2": "[2.6.0, )"
         }
       ]
+    },
+    "UiPath.WebAPI.Activities": {
+      "Id": "UiPath.WebAPI.Activities",
+      "Version": "1.4.5",
+      "Dependencies": [
+        {
+          "Item1": "AvalonEdit",
+          "Item2": "[5.0.3, )"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[11.0.2, )"
+        },
+        {
+          "Item1": "RestSharp",
+          "Item2": "[106.3.1, )"
+        }
+      ]
     }
   },
   "AllPackages": [
@@ -461,10 +499,10 @@
         "Version": "2.8.0"
       },
       "Assemblies": [
-        "C:\\Users\\samue\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.AvalonDock.dll",
         "C:\\Users\\samue\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.AvalonDock.Themes.Aero.dll",
         "C:\\Users\\samue\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.AvalonDock.Themes.Metro.dll",
         "C:\\Users\\samue\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.AvalonDock.dll",
         "C:\\Users\\samue\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.DataGrid.dll",
         "C:\\Users\\samue\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.Toolkit.dll"
       ],
@@ -547,12 +585,22 @@
         "Version": "2.4.1"
       },
       "Assemblies": [
-        "C:\\Users\\samue\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.dll",
         "C:\\Users\\samue\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OOXML.dll",
         "C:\\Users\\samue\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OpenXml4Net.dll",
-        "C:\\Users\\samue\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OpenXmlFormats.dll"
+        "C:\\Users\\samue\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OpenXmlFormats.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.dll"
       ],
       "Path": "C:\\Users\\samue\\.nuget\\packages\\npoi\\2.4.1"
+    },
+    {
+      "Package": {
+        "Id": "RestSharp",
+        "Version": "106.3.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\samue\\.nuget\\packages\\restsharp\\106.3.1\\lib\\net452\\RestSharp.dll"
+      ],
+      "Path": "C:\\Users\\samue\\.nuget\\packages\\restsharp\\106.3.1"
     },
     {
       "Package": {
@@ -718,6 +766,18 @@
         "C:\\Users\\samue\\.nuget\\packages\\uipath.vision\\2.0.3\\lib\\net461\\UiPath.Vision.dll"
       ],
       "Path": "C:\\Users\\samue\\.nuget\\packages\\uipath.vision\\2.0.3"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.WebAPI.Activities",
+        "Version": "1.4.5"
+      },
+      "Assemblies": [
+        "C:\\Users\\samue\\.nuget\\packages\\uipath.webapi.activities\\1.4.5\\lib\\net452\\UiPath.Web.Activities.Design.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\uipath.webapi.activities\\1.4.5\\lib\\net452\\UiPath.Web.Activities.dll",
+        "C:\\Users\\samue\\.nuget\\packages\\uipath.webapi.activities\\1.4.5\\lib\\net452\\UiPath.Web.dll"
+      ],
+      "Path": "C:\\Users\\samue\\.nuget\\packages\\uipath.webapi.activities\\1.4.5"
     }
   ]
 }

@@ -1646,9 +1646,9 @@
     "restore": {
       "projectUniqueName": "033_BirthdayDictionaries",
       "projectName": "033_BirthdayDictionaries",
-      "projectPath": "C:\\RPA\\BotsInDev\\MiniBots\\e_33_BirthdayDictionaries\\.local",
+      "projectPath": "C:\\RPA\\BotsInDev\\MiniBots\\E33_BirthdayDictionaries\\.local",
       "packagesPath": "C:\\Users\\samue\\.nuget\\packages\\",
-      "outputPath": "C:\\RPA\\BotsInDev\\MiniBots\\e_33_BirthdayDictionaries\\.local"
+      "outputPath": "C:\\RPA\\BotsInDev\\MiniBots\\E33_BirthdayDictionaries\\.local"
     },
     "frameworks": {
       "net461": {
